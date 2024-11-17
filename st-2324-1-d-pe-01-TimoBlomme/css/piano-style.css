@@ -1,0 +1,32 @@
+header h1 {
+    color: #2b7a78;
+}
+
+section {
+    padding: 20px;
+    background-color: #e0f7fa;
+    height: 100%;
+}
+
+.intro-container {
+    display: flex;
+    align-items: top; 
+    gap: 40px; 
+    margin-left: 20px;
+    margin-right: 400px;
+}
+
+section h2 {
+    color: #005662;
+    font-size: 1.8em;
+}
+
+.content-image {
+    border: 5px solid #2b7a78;
+    width: auto;
+    height: 300px;
+}
+
+.main-navigation ul li a:hover {
+    color: #006080;
+}
