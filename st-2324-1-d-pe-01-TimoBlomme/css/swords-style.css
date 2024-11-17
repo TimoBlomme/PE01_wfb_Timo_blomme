@@ -14,8 +14,7 @@ section h2 {
 }
 
 .intro-container {
-    display: flex;
-    align-items: top; 
+    display: flex; 
     gap: 40px; 
     margin-left: 20px;
     margin-right: 400px;

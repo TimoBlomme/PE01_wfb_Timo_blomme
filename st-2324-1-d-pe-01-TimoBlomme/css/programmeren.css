@@ -21,7 +21,6 @@ section h2 {
 
 .intro-container {
     display: flex;
-    align-items: top; 
     gap: 40px; 
     margin-left: 20px;
     margin-right: 200px;
@@ -35,4 +34,39 @@ section h2 {
 
 .main-navigation ul li a:hover {
     color: #006080;
+}
+
+.schedule-container {
+    margin: 20px auto;
+    overflow-x: auto;
+    padding: 5px;
+    background-color: #fff5e6;
+    border-radius: 5px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1em;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+.schedule-table th {
+    background-color: #bb8000;
+    color: white;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
 }

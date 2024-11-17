@@ -10,7 +10,6 @@ section {
 
 .intro-container {
     display: flex;
-    align-items: top; 
     gap: 40px; 
     margin-left: 20px;
     margin-right: 400px;

@@ -90,10 +90,9 @@ footer {
 
 .intro-container {
     display: flex;
-    align-items: top; 
     gap: 50px; 
     margin-left: 20px;
-    width: 700px;
+    width: 900px;
 }
 
 .thumbnail {
@@ -111,4 +110,8 @@ main {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+}
+
+section ul li {
+    list-style: none;
 }
